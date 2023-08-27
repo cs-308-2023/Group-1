@@ -4,7 +4,7 @@
 //trial
 int main() {
     int X, Y;
-    x = 56;
+    x = 16;
     y = 98;
     
     int result = gcd(x, y);
