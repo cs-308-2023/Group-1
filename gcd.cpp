@@ -1,11 +1,5 @@
 #include <iostream>
-
-int gcd(int a, int b) {
-    if (b == 0) {
-        return a;
-    }
-    return gcd(b, a % b);
-}
+#include "functions.h"
 
 int main() {
     int num1, num2;
@@ -13,7 +7,7 @@ int main() {
     std::cin >> num1 >> num2;
     
     int result = gcd(num1, num2);
-    std::cout << "GCD: " << result << std::endl;
-    
+    cout<<result<<endl;
+
     return 0;
 }
