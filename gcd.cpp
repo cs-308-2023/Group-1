@@ -2,11 +2,11 @@
 #include "functions.h"
 
 int main() {
-    int num1, num2;
-    std::cout << "Enter two numbers: ";
-    std::cin >> num1 >> num2;
+    int x, y;
+    x = 56;
+    y = 98;
     
-    int result = gcd(num1, num2);
+    int result = gcd(x, y);
     std::cout << "GCD: " << result << std::endl;
     
     return 0;
