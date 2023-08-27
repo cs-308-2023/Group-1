@@ -2,7 +2,7 @@
 #include "functions.h"
 
 int main() {
-    int x, y;
+    int X, Y;
     x = 56;
     y = 98;
     
@@ -11,3 +11,4 @@ int main() {
     
     return 0;
 }
+
